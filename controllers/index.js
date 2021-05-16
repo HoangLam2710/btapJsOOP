@@ -39,9 +39,8 @@ function renderTable(arrNV) {
                 <td><button class="btn btn-danger" onclick="xoaNhanVien(${nhanvien.maNhanVien})">Xoá</button></td>
             </tr>
         `;
-
-        document.getElementById("tblNhanVien").innerHTML = content;
     });
+    document.getElementById("tblNhanVien").innerHTML = content;
 }
 
 function xoaNhanVien(maNV) {
